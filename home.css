@@ -1,12 +1,13 @@
+html,body{
+    overflow-x: hidden;
+}
 nav{
     overflow: hidden;
     box-shadow: #FFFFFF;
     background-color: #2326B4;
-    margin-right: auto;
-    width:100%;
 }
 nav ul li a{
-    padding:30px;
+    padding:20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     font-size: 20px;
