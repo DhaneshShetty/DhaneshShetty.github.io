@@ -1,6 +1,8 @@
 nav{
+    overflow-x: hidden;
     box-shadow: #FFFFFF;
     background-color: #2326B4;
+    margin-right: auto;
 }
 nav ul li a{
     padding:30px;
