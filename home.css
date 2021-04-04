@@ -1,0 +1,121 @@
+nav{
+    box-shadow: #FFFFFF;
+    background-color: #2326B4;
+}
+nav ul li a{
+    padding:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+    color:#8B96B5;
+    text-decoration: none;
+    text-emphasis: none;
+}
+navbar-brand{
+    color: #FFFFFF;
+}
+button{
+    border-radius: 10px;
+    padding:10px;
+    background-color: #2326B4;
+}
+a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+nav div{
+    color:#FFFFFF;
+}
+#hi{
+    background-color: #05060A;
+    color:#FFFFFF;
+    font-size: 38px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    margin-right: auto;
+    margin-top:50px;
+
+}
+.highlight{
+    color:#4042b1;
+}
+#experience{
+    overflow: hidden;
+    background-color: #0F0F0F;
+    color:#FFFFFF;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+#skills{
+    overflow: hidden;
+    background-color: #05060A;
+    color:#FFFFFF;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+#contactme{
+    overflow: hidden;
+    background-color: #23345A;
+    color:#FFFFFF;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.position{
+    font-size: 20px;
+    font-weight: 200;
+}
+.company{
+    font-size: 16px;
+    font-weight: 100;
+}
+.time{
+    font-size:12px;
+    font-weight: 100;
+}
+.exp-row{
+    background-color:#23345A ;
+    padding:30px;
+    border-radius: 20px;
+    margin:10px;
+}
+.card{
+    margin:10px;
+    border-radius: 10px;
+    background-color:#2326B4 ;
+    color:#FFFFFF;
+    padding:20px;
+}
+.heading{
+    font-size: 40px;
+    padding:10px;
+    font-weight: 900;
+}
+ul{
+    list-style-type: none;
+    color:#8B96B5
+}
+.social {
+    padding: 20px;
+    margin:10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    background-color:#23345A;
+    color: #FFFFFF;
+}
+.fa:hover{
+    background-color:#FFFFFF;
+    color: #2326B4;
+}
+.anchor a{
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
