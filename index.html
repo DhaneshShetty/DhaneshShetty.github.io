@@ -9,14 +9,17 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="home.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="padding-top:20px;padding-bottom:20px;">
-            <div class="navbar-brand">DhaneshShetty.cv</div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#collapsibleNavbar">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="padding-top:20px;padding-bottom:20px;">
+            <div class="navbar-brand" style="font-family:'fantasy';font-size: larger;font-weight: 900;">Dhanesh.cv</div>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#collapsibleNavbar" style="float: right;">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="navbar-collapse collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -32,16 +35,26 @@
                         <a href="#contactme">Contact me</a>
                     </li>
                 </ul>
+                 
             </div>
+            <ul class="nav navbar-nav navbar-right ml-auto" style="float:right">
+                <li class="nav-item">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dhaneshshetty65@gmail.com" class="fa fa-google social nav-item"></a>
+                                 
+                    <a href="https://www.linkedin.com/in/dhanesh-shetty/" class="fa fa-linkedin social nav-item"></a>
+               
+                    <a href="https:github.com/DhaneshShetty" class="fa fa-github social nav-item"></a>
+                </li>
+            </ul> 
         </nav>
-        <div class="row" id="hi">
-            <div class="col-8" style="position: relative;top:50px">
+        <div class="row" id="hi" height="100vh">
+            <div class="col-8" style="position: relative;top:100px">
             <b>Hi,my name is Dhanesh Shetty.<br>
             I'm a <span class="highlight">Student</span> at Vellore Institute of Technology,<br>
             <span class="highlight">Developer</span><wbr>,<span class="highlight">Tech Enthusiast</span><wbr>,aspiring to contribute<wbr> to the tech industry.</b> 
         </div>
     
-        <img class="col-2-sm" src="pp.jpeg" style="border-radius: 50%;width:360px;height:360px;padding:20px">
+        <img id="profile_pic" class="col-2-sm" src="pp.jpeg" style="border-radius: 50%;width:360px;height:360px;padding:20px">
         </div>
         <div class="container-fluid" id="experience">
             <h3 class="heading">Experience</h3>
@@ -70,52 +83,21 @@
             </div>
         </div>
         <div class="container-fluid" id="skills">
-            <h3 class="heading">Skills</h3>
-            <div class="row">
-                <div class="col-sm-3 card">
-                    <b class="position">Android Development</b>
-                    <ul>
-                        <li>Java</li>
-                        <li>Kotlin</li>
-                        <li>XML</li>
-                        <li>Firebase</li>
-                        <li>Room</li>
-                        <li>Retrofit</li>
-                        <li>MVVM</li>
-                    </ul>                 
-
-                </div>
-                <div class="col-sm-3 card">
-                    <b class="position">Web Development</b>
-                    <ul>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>Ktor</li>                        
-                    </ul>              
-                </div>
-                <div class="col-sm-3 col-sm card">
-                    <b class="position">Other Languages and Interests</b>
-                    <ul>
-                        <li>Python</li>
-                        <li>C++</li>
-                        <li>DBMS</li>
-                        <li>SQL</li>
-                        <li>OpenCV</li>
-                        <li>Deep Learning</li>
-                    </ul>              
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid" id="contactme" align="center">
-            Contact me
-            <div>    
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dhaneshshetty65@gmail.com" class="fa fa-google social"></a>
-                <a href="https://www.instagram.com/_dhanesh_shetty_/" class="fa fa-instagram social"></a>
-                <a href="https://www.linkedin.com/in/dhanesh-shetty/" class="fa fa-linkedin social"></a>
-                <a href="https:github.com/DhaneshShetty" class="fa fa-github social"></a>
-                <a href="https://medium.com/@dhaneshshetty65" class="fa fa-medium social"></a>
-            </div>            
+            <h3 class="heading">Tech Stack</h3> 
+            
+                <ul id="tech" style="justify-content: center;">             
+                <li class="devicon-android-plain skills"></li>            
+                <li class="devicon-java-plain skills"></li>            
+                <li class="devicon-kotlin-plain skills"></li>            
+                <li class="devicon-html5-plain skills"></li>            
+                <li class="devicon-css3-plain skills"></li>            
+                <li class="devicon-bootstrap-plain skills"></li>            
+                <li class="devicon-firebase-plain skills"></li>            
+                <li class="devicon-python-plain skills"></li>        
+                <li class="devicon-react-plain skills"></li>            
+                <li class="devicon-nodejs-plain skills"></li>    
+                </ul>            
+             
         </div>
     </body>
 </html>

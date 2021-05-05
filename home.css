@@ -87,6 +87,10 @@ nav div{
     border-radius: 20px;
     margin:10px;
 }
+.exp-row:hover{
+    background-color:#FFFFFF;
+    color:#2326B4
+}
 .card{
     margin:10px;
     border-radius: 10px;
@@ -98,20 +102,53 @@ nav div{
     font-size: 40px;
     padding:10px;
     font-weight: 900;
+    margin-bottom: 50px;
 }
 ul{
     list-style-type: none;
     color:#8B96B5
 }
 .social {
-    padding: 20px;
-    margin:10px;
+    padding: 15px;
+    margin:5px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 10%;
     background-color:#23345A;
     color: #FFFFFF;
+}
+.skills{
+    padding: 25px;
+    margin: 20px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    background-color:#23345A;
+    color: #FFFFFF;
+    width: fit-content;
+}
+@media screen and (max-width: 480px) {
+   
+        .skills{
+            padding: 20px;
+            margin: 10px;
+            margin-bottom: 40px;
+            font-size: 40px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10%;
+            background-color:#23345A;
+            color: #FFFFFF;
+            width: fit-content;
+        }
+    }
+
+.skills:hover{
+    background-color:#FFFFFF;
+    color: #2326B4;
 }
 .fa:hover{
     background-color:#FFFFFF;
@@ -122,4 +159,11 @@ ul{
     position: relative;
     top: -100px;
     visibility: hidden;
+}
+#profile_pic:hover{
+    border-radius: 10px;
+    border-color: #FFFFFF;
+}
+#tech li{
+    display:inline-flex;
 }
